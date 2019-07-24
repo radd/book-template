@@ -1,0 +1,70 @@
+          <div class="review">
+						<div class="review_body col_60p">
+							<div class="review_info">
+								<a href="review.html">
+								<div class="avatar">
+									<img alt="avatar" src="images/avatar/3.jpeg" />
+								</div>
+								<div class="review_text">
+									<h3>Świetna książka o historii Polski</h3>
+									<p>Niedawno przeczytałem książkę pt. "Kamienie na szaniec", której autorem jest Aleksander Kamiński. Utwór ma formę zbliżoną do dokumentalnej relacji o zdarzeniach, występują w nim autentyczne postaci. Jako ciekawostkę dodam, że tytuł dzieła autor zaczerpnął od jednego...
+									</p>
+								</div>
+								</a>
+							</div>
+						</div>
+						<div class="cover col_40p">
+							<img alt="okładka" src="images/covers/ka.jpg" />
+						</div>
+					</div>
+					<div class="review">
+						<div class="review_body col_60p">
+							<div class="review_info">
+								<a href="review.html">
+								<div class="avatar">
+									<img alt="avatar" src="images/avatar/2.jpeg" />
+								</div>
+								<div class="review_text">
+									<h3>Quidditch po latach</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...
+									</p>
+								</div>
+								</a>
+							</div>
+						</div>
+						<div class="cover col_40p">
+							<img alt="okładka" src="images/covers/quidditch.jpg" />
+						</div>
+					</div>
+					<div class="review">
+						<div class="review_body col_60p">
+							<div class="review_info">
+								<a href="review.html">
+								<div class="avatar">
+									<img alt="avatar" src="images/avatar/4.jpeg" />
+								</div>
+								<div class="review_text">
+									<h3>Czy w domu możesz być bezpieczny?</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
+								</div>
+								</a>
+							</div>
+						</div>
+						<div class="cover col_40p">
+							<img alt="okładka" src="images//covers/spij-spokojnie.jpg" />
+						</div>
+					</div>
+					<div class="review">
+						<div class="review_body col_60p">
+							<div class="review_info">
+								<a href="review.html">
+								<div class="avatar">
+									<img alt="avatar" src="images/avatar/1.jpg" />
+								</div>
+								<div class="review_text">
+									<h3>Bo żeby wygrać trzeba grać!</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
+								</div>
+								</a>
+							</div>
+						</div>

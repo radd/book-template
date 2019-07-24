@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="pl" dir="ltr"> 
+<head>     
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">     
+	<title>Książka: Kamienie na szaniec</title> 
+	<meta name="description" content="Serwis internetowy dla miłośników książek"> 
+	<meta name="keywords" content="książka, recenzja, serwis, czytelnik, autor"> 
+	<meta name="author" content="Piotr"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="fontello/css/fontello.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap&subset=latin-ext" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>	
+	<script src="js/menu.js"></script>	
+	<script src="js/menu_mobile.js"></script>	
+	
+</head> 
+<body>
+	<div id="top_bg_book" class="book_top">
+		<header id="header" class="ghost_menu">
+			<div class="logo"><img src="images/logo.png" alt="logo" /></div>
+			<nav id="navigation" class="top_menu" >
+				<ul id="menu_navigation" class="menu" >
+					<li class=""><a href="index.html">Strona Główna</a></li>
+						<li><a href="book.html">Książki</a></li>
+						<li class="menu_has_children" ><a href="review-page.html">Wpisy</a>
+						<ul class="sub-menu">
+							<li><a href="review.html">Recenzja1</a></li>
+							<li><a href="review.html">Recenzja2</a><ul class="sub-menu">
+							<li><a href="review.html">Recenzja1</a></li>
+							<li><a href="review.html">Recenzja2</a></li>
+							<li><a href="review.html">Recenzja3</a></li>
+						</ul></li>
+							<li><a href="review.html">Recenzja3</a></li>
+						</ul>
+						</li>
+						<li ><a href="">Dodaj recenzje</a></li>
+						<li><a href="contact.html">Kontakt</a></li>
+				</ul>		
+			</nav>
+			<a href="javascript:void(0);" class="navigation_control"><i class="icon-menu"></i></a>
+		</header>
+		<div id="parallax" class="bg"></div>
+		<div class="container">
+			<div class="book_info col_60p">
+				<h2 class="book_title">Kamienie na szaniec</h2>
+				<div class="book_description">
+					Aleksander Kamiński			
+				</div>
+			</div>
+			<div class="book_cover col_40p">
+				<img class="cover" alt="okładka" src="images/covers/ka.jpg" />
+			</div>
+		</div>
+	</div>
+	<div id="main">
+		<div class="content full_width book_page">
+			<section class="book_description">
+				<h2>Opis książki</h2>
+				<div class="description">
+					<p>						
+						Fabuła książki jest oparta na prawdziwych wydarzeniach z końca lat 30. i okresu okupacji niemieckiej w Warszawie.
+						Po zajęciu stolicy przez Niemców, trzej główni bohaterowie próbują odnaleźć się w nowej rzeczywistości. W październiku 1939 wstępują do lewicowej Polskiej Ludowej Akcji Niepodległościowej (PLAN) biorąc udział w jej akcjach małego sabotażu m.in. nalepiają karteczki na obwieszczeniu gubernatora Hansa Franka o utworzeniu Generalnego Gubernatorstwa, na których widnieją słowa: Marszałek Piłsudski powiedziałby: a my was wszyscy w d.... mamy. Podejmują się również różnego rodzaju prac zarobkowych.
+					</p>
+					<p>
+						Z PLAN-u odeszli miesiąc przed rozbiciem organizacji przez Niemców, szukając nowych możliwości działania w konspiracji. Jednocześnie uczą się, m.in. organizują spotkania dyskusyjne. W marcu 1941 wstępują do Szarych Szeregów Chorągwi Warszawskiej i rozpoczynają działalność w Organizacji Małego Sabotażu „Wawer”. W listopadzie 1942 stają się członkami Grup Szturmowych.
+					</p>
+					<p>
+						Po aresztowaniu Janka Bytnara „Rudego” przez Gestapo, „Zośka” organizuje akcję odbicia przyjaciela, przeprowadzoną 26 marca 1943.
+						„Rudego” udało się uwolnić, jednak wskutek obrażeń odniesionych podczas torturowania przez funkcjonariuszy Gestapo zmarł 30 marca 1943. Tego samego dnia zmarł śmiertelnie ranny podczas akcji „Alek”. „Zośka” ginie w akcji w Sieczychach 20 sierpnia 1943.
+					</p>
+					<p>
+							Zródło: <a href="https://pl.wikipedia.org/wiki/Kamienie_na_szaniec">Wikipedia.org</a>
+						</p>	
+				</div>
+			</section>
+			<section  id="vote_section" class="book_vote">
+				<div class="container" >
+					<h2>Dodaj na półkę</h2>
+					<div class="vote_block">
+						<div class="book_vote anim_book_vote1">
+							<div class="vote_count ">
+								<div id="vote1_count" class="anim_count1">826</div>
+							</div>
+							<div class="vote_buttons">
+								<button type="button" onclick="vote(1)" id="vote1" class="anim_button1">Przeczytałem/am</button>
+							</div>
+
+						</div>
+						<div class="book_vote anim_book_vote2">
+							<div class="vote_count">
+								<div id="vote2_count" class="anim_count2">45</div>
+							</div>
+							<div class="vote_buttons">
+								<button type="button" onclick="vote(2)" id="vote2" class="anim_button2">Czytam</button>
+							</div>
+
+						</div>
+						<div class="book_vote anim_book_vote3">
+							<div class="vote_count">
+								<div id="vote3_count" class="anim_count3">70</div>
+							</div>
+							<div class="vote_buttons">
+								<button type="button" onclick="vote(3)" id="vote3" class="anim_button3">Chcę przeczytać</button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="icon icon-star"></div>
+			</section>
+			<section class="book_info2">
+				<h2>Informacje o książce</h2>
+				<div class="book_tableinfo">
+						<table>
+							<tr>
+		  						<td>Tytuł:</td>
+		 						<td>Kamienie na szaniec</td>
+							</tr>
+							<tr>
+		  						<td>Gatunek:</td>
+		 						<td><a href="#">Historyczna</a></td>
+							</tr>
+							<tr>
+		  						<td>Autor:</td>
+		 						<td>Aleksander Kamiński</td>
+							</tr>
+							<tr>
+		  						<td>Rok wydania:</td>
+		 						<td>2014</td>
+							</tr>
+							<tr>
+		  						<td>Ilość stron:</td>
+		 						<td>256</td>
+							</tr>
+						</table>
+					</div>
+			</section>
+			<section class="book_info_author">
+				<h2>O autorze</h2>
+				<div class="author_wrap">
+					<div class="author">
+						<div class="author_img col_40p">
+							<div class="avatar">
+								<img alt="avatar" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/PomnikAleksandraKami%C5%84skiego01.jpg/220px-PomnikAleksandraKami%C5%84skiego01.jpg" />
+							</div>
+						</div>
+						<div class="author_info col_60p">
+							<h4>Aleksander Kamiński</h4>
+							<div class="description">
+								<p>Aleksander Kamiński zył w latach 1903-1978. Był oddanym pedagogiem, instruktorem harcerskim, harcmistrzem, jeden z żołnierzy Armii Krajowej oraz przywódca Szarych Szeregów. Nosił pseudonim "kamyk". W latach 1943-44 napisał książkę "Kamienie na Szaniec". Tytuł był inicjatywą jednego z jej głównych bohaterów - Zośki, nawiązuje do ulubionego wiersza Rudego, autorstwa Juliusza Słowackiego.
+								</p>
+							</div>
+							
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</section>
+			<section class="book_review">
+				<h2>Ostatnie recenzje</h2>
+				<div class="review_wrap">
+					<div class="review">
+						<div class="review_info col_60p">
+							<h4>Quidditch po latach</h4>
+							<div class="description">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
+							</div>
+						</div>
+						<div class="review_author col_40p">
+							<div class="avatar">
+								<img alt="avatar" src="images/avatar/1.jpg" />
+							</div>
+							<h4>Ewelina Nowak</h4>
+						</div>
+					</div>
+					<div class="review">
+						<div class="review_info col_60p">
+							<h4>Czy w domu możesz być bezpieczny?</h4>
+							<div class="description">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
+							</div>
+							
+						</div>
+						<div class="review_author col_40p">
+							<div class="avatar">
+								<img alt="avatar" src="images/avatar/2.jpeg" />
+							</div>
+							<h4>Daniel Ciupała</h4>
+						</div>
+					</div>
+					<div class="review">
+						<div class="review_info col_60p">
+							<h4>Bo żeby wygrać trzeba grać!</h4>
+							<div class="description">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
+							</div>
+							
+						</div>
+						<div class="review_author col_40p">
+							<div class="avatar">
+								<img alt="avatar" src="images/avatar/3.jpeg" />
+							</div>
+							<h4>Adam Konieczny</h4>
+						</div>
+					</div>
+					<div class="review">
+						<div class="review_info col_60p">
+							<h4>Świetna książka o historii Polski</h4>
+							<div class="description">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
+							</div>
+							
+						</div>
+						<div class="review_author col_40p">
+							<div class="avatar">
+								<img alt="avatar" src="images/avatar/4.jpeg" />
+							</div>
+							<h4>Kamila Lewitt</h4>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+
+			<section class="books">
+			
+				
+				
+				<h2>Podobne książki</h2>
+				
+				<div class="wrap book_main_list">
+					<div class="book">
+						<a href="book.html">
+							<img class="cover" alt="okładka" src="images/covers/ka.jpg" />
+							<div class="info">
+								<h5>Kamienie na szaniec</h5>
+							</div>
+						</a>
+					</div>
+					<div class="book">
+						<a href="book.html">
+							<img class="cover" alt="okładka" src="images/covers/harry.jpg" />
+							<div class="info">
+								<h5>Harry Potter i Więzień Azkabanu</h5>
+							</div>
+						</a>
+					</div>
+					<div class="book">
+						<a href="book.html">
+							<img class="cover" alt="okładka" src="images/covers/pies.jpg" />
+							<div class="info">
+								<h5>Był sobie pies</h5>
+							</div>
+						</a>
+					</div>
+					<div class="book">
+						<a href="book.html">
+							<img class="cover" alt="okładka" src="images/covers/naznaczeni.jpg" />
+							<div class="info">
+								<h5>Naznaczeni śmiercią</h5>
+							</div>
+						</a>
+					</div>
+					<div class="book">
+						<a href="book.html">
+							<img class="cover" alt="okładka" src="images/covers/mitologia.jpg" />
+							<div class="info">
+								<h5>Mitologia nordycka</h5>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+			</section>
+
+			<div class="footer"> 2017 @Piotr Radziszewski</div>
+			
+		</div>
+			
+			
+	</div>
+
+	<script src="js/top_bg.js"></script>	
+	<script src="js/anim_js.js"></script>	
+	<script src="js/vote.js"></script>
+</body> 
+</html>   
